@@ -1,0 +1,6 @@
+framework module Pods_CCM_CCMUITests {
+  umbrella header "Pods-CCM-CCMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

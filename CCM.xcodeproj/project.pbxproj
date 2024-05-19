@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BE4F550DBD8CD989006EB68 /* Pods_CCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C06E7D69256320B73C5C434 /* Pods_CCM.framework */; };
+		30DBE95B9A8816E2064DE1BC /* Pods_CCMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF52DF983305C9DDDA697191 /* Pods_CCMTests.framework */; };
 		70CBF9522BF8B1CF002A0A50 /* CCMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF9512BF8B1CF002A0A50 /* CCMApp.swift */; };
 		70CBF9542BF8B1CF002A0A50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF9532BF8B1CF002A0A50 /* ContentView.swift */; };
 		70CBF9562BF8B1D0002A0A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CBF9552BF8B1D0002A0A50 /* Assets.xcassets */; };
@@ -14,6 +16,10 @@
 		70CBF9632BF8B1D0002A0A50 /* CCMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF9622BF8B1D0002A0A50 /* CCMTests.swift */; };
 		70CBF96D2BF8B1D0002A0A50 /* CCMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF96C2BF8B1D0002A0A50 /* CCMUITests.swift */; };
 		70CBF96F2BF8B1D0002A0A50 /* CCMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF96E2BF8B1D0002A0A50 /* CCMUITestsLaunchTests.swift */; };
+		70CBF97C2BF8B241002A0A50 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF97B2BF8B241002A0A50 /* CameraViewController.swift */; };
+		70CBF97E2BF8B2E0002A0A50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF97D2BF8B2E0002A0A50 /* MainViewController.swift */; };
+		70CBF9822BF8BCD1002A0A50 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBF9812BF8BCD1002A0A50 /* CameraView.swift */; };
+		EEC7D378CE75E0B73CF1D0F7 /* Pods_CCM_CCMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A02D99E936285015635F121 /* Pods_CCM_CCMUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04677EB39E15D5CFCCEEBA64 /* Pods-CCMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMTests.debug.xcconfig"; path = "Target Support Files/Pods-CCMTests/Pods-CCMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		08004CFCFA53797C68F2EA84 /* Pods-CCMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCMTests.release.xcconfig"; path = "Target Support Files/Pods-CCMTests/Pods-CCMTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C06E7D69256320B73C5C434 /* Pods_CCM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8F2697B7100CB7EF04BB3D /* Pods-CCM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCM.debug.xcconfig"; path = "Target Support Files/Pods-CCM/Pods-CCM.debug.xcconfig"; sourceTree = "<group>"; };
+		32E1D68456982BA46B21C336 /* Pods-CCM-CCMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCM-CCMUITests.release.xcconfig"; path = "Target Support Files/Pods-CCM-CCMUITests/Pods-CCM-CCMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5A02D99E936285015635F121 /* Pods_CCM_CCMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCM_CCMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D05524EBC1E911FC834737 /* Pods-CCM-CCMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCM-CCMUITests.debug.xcconfig"; path = "Target Support Files/Pods-CCM-CCMUITests/Pods-CCM-CCMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		70CBF94E2BF8B1CF002A0A50 /* CCM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CBF9512BF8B1CF002A0A50 /* CCMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCMApp.swift; sourceTree = "<group>"; };
 		70CBF9532BF8B1CF002A0A50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,11 @@
 		70CBF9682BF8B1D0002A0A50 /* CCMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CBF96C2BF8B1D0002A0A50 /* CCMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCMUITests.swift; sourceTree = "<group>"; };
 		70CBF96E2BF8B1D0002A0A50 /* CCMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70CBF97B2BF8B241002A0A50 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		70CBF97D2BF8B2E0002A0A50 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		70CBF9812BF8BCD1002A0A50 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		71533BF3E7EB89ED885C35F4 /* Pods-CCM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCM.release.xcconfig"; path = "Target Support Files/Pods-CCM/Pods-CCM.release.xcconfig"; sourceTree = "<group>"; };
+		DF52DF983305C9DDDA697191 /* Pods_CCMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE4F550DBD8CD989006EB68 /* Pods_CCM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DBE95B9A8816E2064DE1BC /* Pods_CCMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC7D378CE75E0B73CF1D0F7 /* Pods_CCM_CCMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,8 @@
 				70CBF9612BF8B1D0002A0A50 /* CCMTests */,
 				70CBF96B2BF8B1D0002A0A50 /* CCMUITests */,
 				70CBF94F2BF8B1CF002A0A50 /* Products */,
+				CD3163E5C2B084B9DC942252 /* Pods */,
+				C30C7FB1A3796143F0814828 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				70CBF9512BF8B1CF002A0A50 /* CCMApp.swift */,
+				70CBF97D2BF8B2E0002A0A50 /* MainViewController.swift */,
+				70CBF97B2BF8B241002A0A50 /* CameraViewController.swift */,
 				70CBF9532BF8B1CF002A0A50 /* ContentView.swift */,
+				70CBF9812BF8BCD1002A0A50 /* CameraView.swift */,
 				70CBF9552BF8B1D0002A0A50 /* Assets.xcassets */,
 				70CBF9572BF8B1D0002A0A50 /* Preview Content */,
 			);
@@ -127,6 +153,30 @@
 			path = CCMUITests;
 			sourceTree = "<group>";
 		};
+		C30C7FB1A3796143F0814828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C06E7D69256320B73C5C434 /* Pods_CCM.framework */,
+				5A02D99E936285015635F121 /* Pods_CCM_CCMUITests.framework */,
+				DF52DF983305C9DDDA697191 /* Pods_CCMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3163E5C2B084B9DC942252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F2697B7100CB7EF04BB3D /* Pods-CCM.debug.xcconfig */,
+				71533BF3E7EB89ED885C35F4 /* Pods-CCM.release.xcconfig */,
+				63D05524EBC1E911FC834737 /* Pods-CCM-CCMUITests.debug.xcconfig */,
+				32E1D68456982BA46B21C336 /* Pods-CCM-CCMUITests.release.xcconfig */,
+				04677EB39E15D5CFCCEEBA64 /* Pods-CCMTests.debug.xcconfig */,
+				08004CFCFA53797C68F2EA84 /* Pods-CCMTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70CBF9722BF8B1D0002A0A50 /* Build configuration list for PBXNativeTarget "CCM" */;
 			buildPhases = (
+				9680D756B9A23686E07BA3C9 /* [CP] Check Pods Manifest.lock */,
 				70CBF94A2BF8B1CF002A0A50 /* Sources */,
 				70CBF94B2BF8B1CF002A0A50 /* Frameworks */,
 				70CBF94C2BF8B1CF002A0A50 /* Resources */,
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70CBF9752BF8B1D0002A0A50 /* Build configuration list for PBXNativeTarget "CCMTests" */;
 			buildPhases = (
+				A6C70C3DDB584F59E31839F3 /* [CP] Check Pods Manifest.lock */,
 				70CBF95A2BF8B1D0002A0A50 /* Sources */,
 				70CBF95B2BF8B1D0002A0A50 /* Frameworks */,
 				70CBF95C2BF8B1D0002A0A50 /* Resources */,
@@ -169,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70CBF9782BF8B1D0002A0A50 /* Build configuration list for PBXNativeTarget "CCMUITests" */;
 			buildPhases = (
+				A68AD40C3B7DEB3EA5DB10CF /* [CP] Check Pods Manifest.lock */,
 				70CBF9642BF8B1D0002A0A50 /* Sources */,
 				70CBF9652BF8B1D0002A0A50 /* Frameworks */,
 				70CBF9662BF8B1D0002A0A50 /* Resources */,
@@ -252,6 +305,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9680D756B9A23686E07BA3C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68AD40C3B7DEB3EA5DB10CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCM-CCMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C70C3DDB584F59E31839F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70CBF94A2BF8B1CF002A0A50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +381,9 @@
 			files = (
 				70CBF9542BF8B1CF002A0A50 /* ContentView.swift in Sources */,
 				70CBF9522BF8B1CF002A0A50 /* CCMApp.swift in Sources */,
+				70CBF97C2BF8B241002A0A50 /* CameraViewController.swift in Sources */,
+				70CBF9822BF8BCD1002A0A50 /* CameraView.swift in Sources */,
+				70CBF97E2BF8B2E0002A0A50 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +541,7 @@
 		};
 		70CBF9732BF8B1D0002A0A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8F2697B7100CB7EF04BB3D /* Pods-CCM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,6 +551,7 @@
 				DEVELOPMENT_TEAM = X7M392FCT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app use camera to scan your bill";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,6 +572,7 @@
 		};
 		70CBF9742BF8B1D0002A0A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71533BF3E7EB89ED885C35F4 /* Pods-CCM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +582,7 @@
 				DEVELOPMENT_TEAM = X7M392FCT9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app use camera to scan your bill";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,6 +603,7 @@
 		};
 		70CBF9762BF8B1D0002A0A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04677EB39E15D5CFCCEEBA64 /* Pods-CCMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +624,7 @@
 		};
 		70CBF9772BF8B1D0002A0A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08004CFCFA53797C68F2EA84 /* Pods-CCMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +645,7 @@
 		};
 		70CBF9792BF8B1D0002A0A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D05524EBC1E911FC834737 /* Pods-CCM-CCMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +664,7 @@
 		};
 		70CBF97A2BF8B1D0002A0A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E1D68456982BA46B21C336 /* Pods-CCM-CCMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
